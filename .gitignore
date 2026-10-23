@@ -1,0 +1,41 @@
+# Installed dependencies and generated output
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+.vite/
+.vite-temp/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.pem
+*.key
+
+# Logs and local databases
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archive copies
+*.7z
+*.zip
+*.rar
